@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Prata";
+  font-weight: 400;
+  font-display: swap;
+  font-synthesis: weight style small-caps;
+  src:
+    local("Prata"),
+    url("../public/fonts/static/Prata-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 400;
+  font-display: swap;
+  font-synthesis: weight style small-caps;
+  src:
+    local("Inter"),
+    url("../public/fonts/static/Inter-Regular.woff") format("woff");
+}
