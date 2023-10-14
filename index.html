@@ -7,6 +7,174 @@
     <link rel="shortcut icon" href="/vite.svg" type="image/x-icon">
     <link rel="stylesheet" href="./styles/globals.css">
 </head>
-<body>
+<body class="bg-very-dark-gray font-body text-gray">
+    <header class="sticky inset-0 w-full">
+        <nav class="z-50 mx-auto flex h-24 items-center justify-between pt-8 max-lg:w-[90%] lg:w-[85%]">
+            <a href="#" class="inline-block text-light-gray" title="Johnathan Specter">Johnathan Specter</a>
+            
+            <button class="z-50 cursor-pointer border-none lg:hidden">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="fixed inset-0 flex flex-col place-content-center gap-10 text-center lg:flex-row lg:gap-8">
+                <li>
+                    <a href="#" title="Articles">Articles</a>
+                </li>
+                <li>
+                    <a href="#" title="Chats">Chats</a>
+                </li>
+                <li>
+                    <a href="#" title="Awards">Awards</a>
+                </li>
+                <li>
+                    <a href="#" title="About">About</a>
+                </li>
+            </ul>
+
+            <a href="#" class="hidden bg-light-yellow px-6 py-3 text-very-dark-gray lg:inline-block" title="Get in touch">Get in touch</a>
+        </nav>
+    </header>
+    
+    <main class="mt-16 lg:mt-[6rem]">
+        <section class="w-full">   
+
+            <div class="mx-auto w-[90%] lg:w-[85%]">
+
+                <div class="flex flex-col gap-2">
+                    <h1 class="w-full text-[2.122rem] leading-[3rem] md:text-[3.375rem] md:leading-[4.5rem] lg:w-[67%] lg:text-[3.5rem]">Helping companies build better, scalable software.</h1>
+                    <p class="w-full text-[1.055rem] md:w-[99%] md:text-lg lg:w-[60%]">Award-winning web developer and author, with over 15+ years of working experience with Fortune 500 companies like Apple, Google, Facebook, and more.</p>
+                </div>
+    
+                <div class="my-24 grid grid-cols-2 place-items-center gap-y-6 max-lg:place-content-center md:flex md:flex-wrap md:gap-x-[6.5rem] md:gap-y-6 lg:my-[5rem] lg:flex-nowrap lg:gap-24">
+                    <a class="max-sm:ml-12" href="https://www.walmart.com/" title="Walmart" target="_blank" rel="noreferrer">
+                        <figure>
+                            <img src="./assets/Logos/Walmart.svg" alt="Logo of Walmart">
+                        </figure>
+                    </a>
+    
+                    <a class="max-sm:mr-8" href="https://www.jpmorgan.com" title="JP Morgan" target="_blank" rel="noreferrer">
+                        <figure>
+                            <img src="./assets/Logos/JP Morgan.svg" alt="Logo of JP Morgan">
+                        </figure>
+                    </a>
+    
+                    <a class="max-sm:ml-16" href="https://www.visa.com.ar/" title="Visa" target="_blank" rel="noreferrer">
+                        <figure>
+                            <img src="./assets/Logos/Visa.svg" alt="Logo of Visa">
+                        </figure>
+                    </a>
+    
+                    <a class="max-sm:mr-14" href="https://tinder.com/es-AR" title="Tinder" target="_blank" rel="noreferrer">
+                        <figure>
+                            <img src="./assets/Logos/Tinder.svg" alt="Logo of Tinder">
+                        </figure>
+                    </a>
+    
+                    <a class="max-sm:ml-14 max-sm:w-full" href="https://www.samsung.com/ar/" title="Samsung" target="_blank" rel="noreferrer">
+                        <figure>
+                            <img src="./assets/Logos/Samsung.svg" alt="Logo of Tinder">
+                        </figure>
+                    </a>
+                    
+                    <a class="max-sm:ml-10" href="https://www.verizon.com/" title="Verizon" target="_blank" rel="noreferrer">
+                        <figure>
+                            <img src="./assets/Logos/Verizon.svg" alt="Logo of Verizon">
+                        </figure>
+                    </a>
+                </div>
+    
+                <article class="grid max-lg:grid-rows-2 max-lg:gap-12 lg:grid-cols-2 lg:gap-x-[5.5rem]">
+                    <div>
+                        <a class="text-light-gray" href="#" target="_blank" title="Spense.com" rel="noreferrer">
+                            <figure>
+                                <img class="mb-6 w-full lg:h-[18.313rem] lg:max-w-[33.125rem]" src="./assets/Spense.png" alt="Example of design of the page">
+                                <figcaption class="mb-2 flex items-center gap-3 text-3xl">
+                                    Spense.com
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#f8f8f8" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                                        </svg>
+                                    </span>
+                                </figcaption>
+                            </figure>
+                        </a>
+                        <p class="max-md:text-[.98rem]">Rethinking the way writers get paid, an open-source platform designed to help writers focus more on writing, and less on <em>when</em> and <em>how</em> they'll get paid. Project in collaboration with <a href="https://www.codewell.cc/">Codewell.cc</a></p>
+                    </div>
+    
+                    <div>
+                        <a class="text-light-gray" href="#" target="_blank" title="YelpCamp.com" rel="noreferrer">
+                            <figure>
+                                <img class="mb-6 w-full lg:h-[18.313rem] lg:max-w-[33.125rem]" src="./assets/YelpCamp.png" alt="Example of design of the page">
+                                <figcaption class="mb-2 flex items-center gap-3 text-3xl">
+                                    YelpCamp.com
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#f8f8f8" class="w-6 h-6">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                                        </svg>
+                                    </span>
+                                </figcaption>
+                            </figure>
+                        </a>
+                        <p class="max-md:text-[.98rem]">Allowing backpack travelers to perfectly plan their trip through an open-source platform similiar to <a href="https://www.tripadvisor.com/" target="_blank" rel="noreferrer">TripAdvisor</a>. With over 1m MAU, YelpCamp has benn the crowd's favorite in 2021.</p>
+                    </div>
+                </article>
+            </div>
+
+        </section>
+
+        <section class="mb-20 mt-16 w-full bg-dark-gray">
+            <article class="mx-auto my-0 grid grid-rows-2 gap-x-20 pt-16 max-md:w-[90%] md:w-[85%] lg:grid-cols-2 lg:grid-rows-none lg:pt-14">
+                <div>
+                    <h2 class="mb-4 w-full text-[1.976rem] leading-[3rem] md:w-[92%] md:text-4xl">A co-founder at one of the world's largest communities.</h2>
+                    <p class="mb-6 max-md:text-[.992rem]">The combined experience I have working at the top Fortune 500 companies has allowed me to developer a skillset that helps me in not just development, but in every aspect of any business</p>
+                    <p class="w-full max-md:text-[.992rem] md:mb-20 md:w-[99%]">I'm proud to announce that I am now working at one of the world's largest communities teaching young minds about how to <em>sell</em> yourself as a developer and open them to a whole new world of opportunities.</p>
+                </div>
+                <div class="flex flex-col gap-6">
+                    <p class="max-md:text-[.981rem]">As a developer, you have everything available to you and all that's holding you back is yourself.</p>
+                    <p class="max-md:text-[.992rem]">A quote I live by perfectly illustrates what I mean.</p>
+                    <p class="max-md:text-[.992rem]">"How big would you dream, if you <strong>knew</strong> you wouldn't fail?" You've already gone through the hardest parts being a developer, it's time to elevate your skills and become a leader in something you're passionate about.</p>
+                    <p class="max-md:text-[.992rem]">I'm happy to chat over coffe some time about how I can help your company.</p>
+                </div>
+            </article>
+        </section>
+
+        <section class="pb-16 w-full">
+            <div class="mx-auto w-[90%] lg:w-[85%]">
+                <h3 class="text-[1.976rem] lg:text-4xl">Interested in working with me?</h3>
+                <p class="mb-3 w-full text-[.985rem] md:w-[68%] lg:w-[54%]">I'm active on all social media platforms listed below, but you can also me an email and I will get back to you within 24-48 hours.</p>
+                <a href="#" class="inline-block bg-light-yellow px-7 py-3 text-very-dark-gray" title="Get in touch">Get in touch</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="w-full bg-dark-gray">
+        <div class="mx-auto my-0 flex w-[90%] items-center justify-between py-6 lg:w-[85%]">
+            <a href="#" class="block text-light-gray" title="Johnathan Specter">Johnathan Specter</a>
+            
+            <div class="flex gap-4">
+                <a href="#" target="_blank" rel="noreferrer" title="Twitter">
+                    <figure>
+                        <img src="./assets/Social Icons/Twitter.svg" loading="lazy" alt="Icon of social network Twitter">
+                    </figure>
+                </a>
+
+                <a href="#" target="_blank" rel="noreferrer" title="LinkedIn">
+                    <figure>
+                        <img src="./assets/Social Icons/LinkedIn.svg" loading="lazy" alt="Icon of social network LinkedIn">
+                    </figure>
+                </a>
+
+                <a href="#" target="_blank" rel="noreferrer" title="Github">
+                    <figure>
+                        <img src="./assets/Social Icons/Github.svg" loading="lazy" alt="Icon of repository project Github">
+                    </figure>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./main.js"></script>
 </body>
 </html>
