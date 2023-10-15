@@ -92,8 +92,7 @@ ul {
 
 h1,
 h2,
-h3,
-a:not(li > a) {
+h3 {
     font-family: theme(fontFamily.heading);
 }
 
