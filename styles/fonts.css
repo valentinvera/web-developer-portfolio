@@ -5,7 +5,7 @@
   font-synthesis: weight style small-caps;
   src:
     local("Prata"),
-    url("/fonts/static/Prata-Regular.woff") format("woff");
+    url("/fonts/static/Prata-Regular.woff2") format("woff2");
 }
 
 @font-face {
@@ -15,5 +15,5 @@
   font-synthesis: weight style small-caps;
   src:
     local("Inter"),
-    url("/fonts/static/Inter-Regular.woff") format("woff");
+    url("/fonts/static/Inter-Regular.woff2") format("woff2");
 }
