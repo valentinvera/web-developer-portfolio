@@ -7,102 +7,102 @@
 header,
 main > section,
 footer {
-    width: 85%;
-    max-width: 90rem;
-    margin: 0 auto;
+  width: 85%;
+  max-width: 90rem;
+  margin: 0 auto;
 
-    @media screen and (width <= 1024px) {
-        width: 90%;
-    }
+  @media screen and (width <= 64rem) {
+    width: 90%;
+  }
 }
 
 header.active {
-    background-color: theme(backgroundColor.very-dark-gray);
-    transition: all 1s ease-in-out;
+  background-color: theme(backgroundColor.very-dark-gray);
+  transition: all 1s ease-in-out;
 }
 
 nav {
-    transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 button,
 button > span {
-    transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 button > span {
-    display: block;
-    background-color: theme(backgroundColor.white);
-    width: 2rem;
-    height: .313rem;
+  display: block;
+  background-color: theme(backgroundColor.white);
+  width: 2rem;
+  height: .313rem;
 }
 
 button > span:not(:last-child) {
-    margin-bottom: .375rem;
+  margin-bottom: .375rem;
 }
 
 button.active {
-    transition-delay: .3s;
-    transform: rotate(45deg);
+  transition-delay: .3s;
+  transform: rotate(45deg);
 }
 
 button.active > span:nth-child(2) {
-    width: 0;
+  width: 0;
 }
 
 button.active > span:nth-child(1),
 button.active > span:nth-child(3) {
-    transition-delay: .3s;
+  transition-delay: .3s;
 }
 
 button.active > span:nth-child(1) {
-    transform: translateY(.625rem);
+  transform: translateY(.625rem);
 }
 
 button.active > span:nth-child(3) {
-    transform: translateY(-.75rem) rotate(90deg);
+  transform: translateY(-.75rem) rotate(90deg);
 }
 
 ul {
-    transform: translateY(-100%);
-    transition: transform 1s ease-in-out;
+  transform: translateY(-100%);
+  transition: transform 1s ease-in-out;
 
-    @media screen and (width >= 1024px) {
-        position: unset !important;
-        transform: unset !important;
-    }
+  @media screen and (width >= 1024px) {
+    position: unset !important;
+    transform: unset !important;
+  }
 }
 
 @media screen and (width <= 1024px) {
-    li:last-child > a::after {
-        content: "Get in touch";
-        display: block;
-        background-color: theme(backgroundColor.light-yellow);
-        width: max-content;
-        margin: 2.5rem auto 0;
-        padding: .75rem 1.5rem;
-        color: theme(colors.very-dark-gray);
-        font-family: theme(fontFamily.heading);
-    }
+  li:last-child > a::after {
+    content: "Get in touch";
+    display: block;
+    background-color: theme(backgroundColor.light-yellow);
+    width: max-content;
+    margin: 2.5rem auto 0;
+    padding: .75rem 1.5rem;
+    color: theme(colors.very-dark-gray);
+    font-family: theme(fontFamily.heading);
+  }
 }
 
 .nav__ul--show {
-    transform: translateY(0);
+  transform: translateY(0);
 }
 
 h1,
 h2,
 h3 {
-    font-family: theme(fontFamily.heading);
+  font-family: theme(fontFamily.heading);
 }
 
 h1,
 h2,
 h3 {
-    color: theme(colors.light-gray);
+  color: theme(colors.light-gray);
 }
 
 li > a,
 p {
-    font-size: theme(fontSize.lg);
+  font-size: theme(fontSize.lg);
 }
