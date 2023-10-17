@@ -67,7 +67,7 @@ ul {
   transform: translateY(-100%);
   transition: transform 1s ease-in-out;
 
-  @media screen and (width >= 1024px) {
+  @media screen and (width >= 64rem) {
     position: unset !important;
     transform: unset !important;
   }
