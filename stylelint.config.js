@@ -1,9 +1,5 @@
 module.exports = {
-  extends: [
-    "stylelint-config-standard",
-    "stylelint-stylistic/config",
-    "stylelint-config-prettier",
-  ],
+  extends: ["stylelint-config-standard", "stylelint-stylistic/config"],
   overrides: [
     {
       files: ["*.css", "**/*.css"],
